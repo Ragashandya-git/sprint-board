@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:5000/api' ||'https://sprint-board.onrender.com',
+  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:5000/api' ||'https://sprint-board.onrender.com/api',
 });
 
 // Automatically attach JWT to every request
